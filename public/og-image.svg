@@ -1,0 +1,41 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#334155;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  
+  <!-- Main Title -->
+  <text x="600" y="200" text-anchor="middle" fill="#f8fafc" font-family="Arial, sans-serif" font-size="64" font-weight="bold">
+    OWASP LLM Top 10
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="260" text-anchor="middle" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="32">
+    Security Demo
+  </text>
+  
+  <!-- Description -->
+  <text x="600" y="350" text-anchor="middle" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="24">
+    Interactive demonstration of security vulnerabilities
+  </text>
+  <text x="600" y="390" text-anchor="middle" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="24">
+    for Large Language Models
+  </text>
+  
+  <!-- Shield Icon -->
+  <g transform="translate(550, 450)">
+    <path d="M50 10 L90 25 L90 65 C90 85 70 95 50 100 C30 95 10 85 10 65 L10 25 Z" fill="#ef4444" stroke="#dc2626" stroke-width="2"/>
+    <path d="M50 25 L75 35 L75 65 C75 75 65 80 50 85 C35 80 25 75 25 65 L25 35 Z" fill="#fecaca"/>
+    <text x="50" y="60" text-anchor="middle" fill="#dc2626" font-family="Arial, sans-serif" font-size="16" font-weight="bold">!</text>
+  </g>
+  
+  <!-- URL -->
+  <text x="600" y="580" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="20">
+    oswap.rayuduramisetti.com
+  </text>
+</svg>
