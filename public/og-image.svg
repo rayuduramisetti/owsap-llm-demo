@@ -11,7 +11,7 @@
   
   <!-- Main Title -->
   <text x="600" y="200" text-anchor="middle" fill="#f8fafc" font-family="Arial, sans-serif" font-size="64" font-weight="bold">
-    OWASP LLM Top 10
+    OSWAP LLM Top 10
   </text>
   
   <!-- Subtitle -->

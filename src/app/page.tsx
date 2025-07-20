@@ -18,9 +18,9 @@ export default function Home() {
     <div className="min-h-screen bg-white text-black">
       <div className="container mx-auto px-4 py-8">
         <header className="text-center mb-12">
-          <h1 className="text-4xl font-bold mb-4">OWASP LLM Top 10 Demo</h1>
+          <h1 className="text-4xl font-bold mb-4">OSWAP LLM Top 10 Demo</h1>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-            Interactive demonstration of the OWASP Top 10 security vulnerabilities for Large Language Models.
+            Interactive demonstration of the OSWAP Top 10 security vulnerabilities for Large Language Models.
             Each vulnerability includes real LLM interactions showing both vulnerable and protected behaviors.
           </p>
         </header>
@@ -40,6 +40,17 @@ export default function Home() {
 
         <footer className="mt-16 text-center text-sm text-gray-600">
           <p>Built for educational purposes to demonstrate LLM security vulnerabilities</p>
+          <p className="mt-2">
+            Learn more about the{' '}
+            <a
+              href="https://owasp.org/www-project-top-10-for-large-language-model-applications/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:text-blue-800 underline"
+            >
+              OSWAP Top 10 for LLM Applications
+            </a>
+          </p>
         </footer>
       </div>
     </div>
