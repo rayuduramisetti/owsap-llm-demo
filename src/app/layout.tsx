@@ -43,6 +43,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta property="og:image" content="https://owasp.rayuduramisetti.com/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:alt" content="OWASP LLM Top 10 Demo - Interactive Security Vulnerability Training Platform" />
+        <meta name="image" content="https://owasp.rayuduramisetti.com/og-image.png" />
+        <link rel="canonical" href="https://owasp.rayuduramisetti.com" />
+      </head>
       <body className="font-mono bg-white text-black min-h-screen">
         {children}
       </body>
