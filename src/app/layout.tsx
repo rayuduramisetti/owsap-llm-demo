@@ -22,7 +22,6 @@ export const metadata: Metadata = {
     ],
     locale: "en_US",
     type: "website",
-    publishedTime: new Date().toISOString(),
   },
   twitter: {
     card: "summary_large_image",
