@@ -2,20 +2,20 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "OSWAP LLM Top 10 Demo",
-  description: "Interactive demonstration of OSWAP Top 10 security vulnerabilities for Large Language Models",
+  title: "OWASP LLM Top 10 Demo",
+  description: "Interactive demonstration of OWASP Top 10 security vulnerabilities for Large Language Models",
   metadataBase: new URL("https://oswap.rayuduramisetti.com"),
   openGraph: {
-    title: "OSWAP LLM Top 10 Demo",
-    description: "Interactive demonstration of OSWAP Top 10 security vulnerabilities for Large Language Models",
+    title: "OWASP LLM Top 10 Demo",
+    description: "Interactive demonstration of OWASP Top 10 security vulnerabilities for Large Language Models",
     url: "https://oswap.rayuduramisetti.com",
-    siteName: "OSWAP LLM Security Demo",
+    siteName: "OWASP LLM Security Demo",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "OSWAP LLM Top 10 Demo - Security Vulnerabilities Demonstration",
+        alt: "OWASP LLM Top 10 Demo - Security Vulnerabilities Demonstration",
       },
     ],
     locale: "en_US",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "OSWAP LLM Top 10 Demo",
-    description: "Interactive demonstration of OSWAP Top 10 security vulnerabilities for Large Language Models",
+    title: "OWASP LLM Top 10 Demo",
+    description: "Interactive demonstration of OWASP Top 10 security vulnerabilities for Large Language Models",
     images: ["/og-image.png"],
   },
 };
