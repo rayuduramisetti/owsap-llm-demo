@@ -19,6 +19,13 @@ export const metadata: Metadata = {
         alt: "OWASP LLM Top 10 Demo - Interactive Security Vulnerability Training Platform",
         type: "image/png",
       },
+      {
+        url: "https://owasp.rayuduramisetti.com/og-image.svg",
+        width: 1200,
+        height: 630,
+        alt: "OWASP LLM Top 10 Demo - Interactive Security Vulnerability Training Platform",
+        type: "image/svg+xml",
+      },
     ],
     locale: "en_US",
     type: "website",
@@ -44,11 +51,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="image" property="og:image" content="https://owasp.rayuduramisetti.com/og-image.png" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta property="og:image:type" content="image/png" />
-        <meta property="og:image:alt" content="OWASP LLM Top 10 Demo - Interactive Security Vulnerability Training Platform" />
         <link rel="canonical" href="https://owasp.rayuduramisetti.com" />
       </head>
       <body className="font-mono bg-white text-black min-h-screen">
